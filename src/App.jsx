@@ -67,7 +67,6 @@ function LoginPage({ onLogin, onForgot, onSignUp }) {
             </div>
             <button type="submit" disabled={loading} style={styles.primaryBtn}>{loading ? 'Signing in...' : 'Sign in'}</button>
           </form>
-          <p style={styles.switchText}>Don't have an account? <button onClick={onSignUp} style={styles.linkBtn}>Create one</button></p>
         </div>
       </div>
     </div>
